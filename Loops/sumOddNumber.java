@@ -32,7 +32,7 @@ public class sumOddNumber {
 		do {
 			System.out.print("Enter a number : ");
 			k = input.nextInt();
-			if ((k % 2 == 0) && (k % 4 == 0)) {
+			if (k % 4 == 0) {
 				sum += k;
 			}
 			System.out.println(sum);
